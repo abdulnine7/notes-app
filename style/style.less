@@ -7,7 +7,7 @@
 
 body {
   /* background-color: #7bdaf3; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -30,10 +30,26 @@ body {
   border-radius: 3px;
   padding: 0.5rem 1rem;
   cursor: pointer;
+
+  &:active {
+    transform: scale(0.98);
+  }
 }
 
-.add:active {
-  transform: scale(0.98);
+.help {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background-color: #fff0;
+  color: #fff;
+  border: 1px solid chocolate;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.98);
+  }
 }
 
 .note {
@@ -44,33 +60,33 @@ body {
   width: 400px;
   overflow-y: scroll;
   scrollbar-width: none;
-  border-radius: 10px;
-}
+  border-radius: 5px;
 
-.note .tools {
-  background-color: #2C2C2C;;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0.5rem;
-}
+  .tools {
+    background-color: #2C2C2C;;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
 
-.note .tools button {
-  background-color: transparent;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  font-size: 1rem;
-  margin-left: 0.5rem;
-}
+    button {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-left: 0.5rem;
+    }
+  }
 
-.note textarea {
-  outline: none;
-  font-family: inherit;
-  font-size: 1.2rem;
-  border: none;
-  height: 90%;
-  width: 100%;
-  padding: 20px;
+  textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 90%;
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 .main {
