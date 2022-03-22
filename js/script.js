@@ -10,7 +10,7 @@ addBtn.addEventListener('click', () => addNewNote())
 
 function addNewNote(text = '') {
     const note = document.createElement('div')
-    note.classList.add("note", "card", "m-2", "cursor-pointer", "rounded-lg", "hover:shadow-md", "hover:border-opacity-0", "transform", "hover:-translate-y-1", "transition-all", "duration-200", "bg-white", "h-96", "overflow-y-scroll", "overflow-x-hidden", "no-scrollbar", "dark:bg-gray-800", "dark:border-gray-700", "dark:text-white")
+    note.classList.add("note", "card", "m-6", "cursor-pointer", "rounded-lg", "hover:shadow-md", "hover:border-opacity-0", "transform", "hover:-translate-y-1", "transition-all", "duration-200", "bg-white", "bg-opacity-80" ,"h-96", "overflow-y-scroll", "overflow-x-hidden", "no-scrollbar", "dark:bg-gray-800", "dark:border-gray-700", "dark:text-white")
 
     note.innerHTML = `
     <div class="tools text-lg text-slate-300 bg-stone-800 rounded-t-lg px-2 py-1 align-top flex justify-end space-x-3 shadow-lg dark:bg-gray-300 dark:text-slate-900">
