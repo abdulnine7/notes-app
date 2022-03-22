@@ -1,12 +1,16 @@
-body {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),url("../images/rose-petals.svg");
+html {
+  background-image: url("../images/rose-petals.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+
+  &.dark {
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("../images/rose-petals.svg");
+  }
 }
 
 
