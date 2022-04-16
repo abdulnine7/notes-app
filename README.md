@@ -1,8 +1,7 @@
-# WebNotes.ml
+# NotesApp
 
-[https://webnotes.ml][website]
 
-WebNotes is a free light weight notes tool that creates and saves notes in browser storage. The notes created in WebNotes are auto saved and are locally available in same browser in same device.
+NotesApp is a free light weight notes tool that creates and saves notes in browser storage. The notes created in NotesApp are auto saved and are locally available in same browser in same device.
 
 Sync feature to sync notes across devices is in progress...
 
@@ -33,5 +32,4 @@ Contributions are what make the open source community such an amazing place to l
 
 
 [license]: /LICENSE
-[website]: https://webnotes.ml "A light weight notes tool"
 [pwebsite]: https://abdul.co.in
